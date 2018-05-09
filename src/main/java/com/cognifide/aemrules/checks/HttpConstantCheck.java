@@ -41,7 +41,7 @@ public class HttpConstantCheck extends IssuableSubscriptionVisitor {
 
 	protected static final String RULE_KEY = "AEM-14";
 
-	private static final String HTTP_LITERAL = "http";
+	private static final String HTTP_LITERAL = "http"; //NOSONAR
 
 	public static final String RULE_MESSAGE = "Using http literal hardcoded makes it difficult to switch to https later on.";
 
